@@ -1,0 +1,70 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+.Landing-Page-View {
+    position: relative;
+    min-height: 100vh !important;
+    display: block;
+    overflow: hidden;
+}
+
+.Paralax {
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.Paralax .Paralax-Img {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Bag-Img {
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/930f1890969863.5e25be362b9c1.jpg");
+}
+
+.Center {
+    margin-top: 50%;
+    transform: translateY(-50%);
+}
+
+.Round-Corners {
+    border-radius: 5px;
+}
+
+.Left {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 50%;
+}
+
+.Right {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.sidenav-overlay {
+    z-index: 1 !important;
+}

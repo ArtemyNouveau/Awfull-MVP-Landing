@@ -1,0 +1,35 @@
+.Lines {
+    animation-duration: 3s;
+}
+
+.active .Lines{
+    width: 50vw !important;
+    height: 100vh !important;
+}
+
+.Weird-square-1 {
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    width: 25vw;
+    height: 50vh;
+    background-color: rgba(38,50,56,0.6);
+    mix-blend-mode: multiply;
+}
+
+.Weird-square-2 {
+    position: absolute;
+    top: 0;
+    left: 75vw;
+    width: 25vw;
+    height: 50vh;
+    background-color: rgba(38,50,56,0.6);
+    mix-blend-mode: multiply;
+}
+
+.Weird-Bag-Img {
+    width: 50vw;
+    height: 50vh;
+    left: 50vw !important;
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4a071490969863.5e25be362c41b.jpg");
+}
