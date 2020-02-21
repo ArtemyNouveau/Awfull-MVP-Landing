@@ -1,7 +1,6 @@
 # Landing for Nurlan!
 
-  - Import all from git
-  - Connect to Internet (there are come CDN refs)
+  - Import all from git (yes, there are some external libraries)
   - Enjoy (or not)
   
 Used libraries
